@@ -1,5 +1,12 @@
 # AngularHighchartsPhrase
 
+Reproduce compatibility issue between highcharts and phrase ICE in angular / ngx-translate app
+
+The app should show a chart with a translated title, it will also inject Phrase's in-context editor.
+The translation 'bubble' will briefly appear on the chart title and then disappear.
+
+The Phrase project Id is hardcoded in file 'load-in-context-editor.ts', replace it there whenever required. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Development server
